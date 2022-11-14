@@ -9,18 +9,24 @@
 }
 
 h2 {
-    color: #fff;
-    font-size: 1.3rem;
+    color: rgb(255, 238, 0);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin: 0.7rem;
 }
 
 .container p {
+    width: 85vw;
     color: #fff;
     font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    margin: auto;
+    text-align: justify;
 }
 
 .container img {
     width: 10rem;
-    height: auto;
-    border: rgb(255, 238, 0) 0.4rem solid;
+    height: auto;;
     border-radius: 50%;
 }
