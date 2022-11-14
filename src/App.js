@@ -1,24 +1,27 @@
-import { Navigation } from "./routes/navigation";
+import { Routes, Route } from 'react-router-dom';
 
-import "./App.css";
+import { Navigation } from "./routes/navigation/navigation";
+import { Home } from "./routes/home/home";
+import { About } from "./routes/about/about";
+
 
 function App() {
+
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+  window.addEventListener('resize', () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  });
+
   return (
-    <>
-      <Navigation />
-      <div className="presentation">
-        <div className="presentationTitle">
-        <div className="completeName">
-          <h1 className="fadeOut">
-            Cristina
-          </h1>
-          <span className="surname">Shim<span className="fadeIn">y</span></span>
-        </div>
-          <p>React Developer</p>
-          <button type="button">Get in touch</button>
-        </div>
-      </div>
-    </>
+    <Routes>
+      <Route path='/' element={<Navigation />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Route>
+    </Routes>
   );
 }
 
