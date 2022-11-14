@@ -1,5 +1,46 @@
 .navigation {
     height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    background-color:#000;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navItems a{
+    text-decoration: none;
+    padding: 0 0.2rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+}
+
+.navItems a:hover {
+    text-decoration: none;
+    padding: 0 1rem;
+    color: rgb(255, 238, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 0.3rem;
+}
+
+@media only screen and (min-device-width: 768px) {
+
+.navigation {
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,4 +75,5 @@
     font-weight: bolder;
     font-size: 15px;
     letter-spacing: 0.3rem;
+}
 }
