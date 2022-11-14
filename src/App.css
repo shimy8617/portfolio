@@ -66,26 +66,26 @@
   }
 
   to {
-    transform: translateX(-70%);
+    transform: translateX(-80%);
   }
 }
 
 .fadeOut {
   cursor: pointer;
-  animation: fadeInOutAnimation 4s;
+  animation: fadeInOutAnimation 2s;
   animation-fill-mode: forwards;
   padding-right: 0.5rem;
 }
 .fadeIn {
   cursor: pointer;
-  animation: fadeInOutAnimation 5s;
+  animation: fadeInOutAnimation 3s;
   animation-fill-mode: forwards;
   animation-direction: alternate-reverse;
 }
 
 .surname {
-  animation: translateAnimation 1s;
-  animation-delay: 5s;
+  animation: translateAnimation 1s forwards;
+  animation-delay: 3s;
   text-transform: uppercase;
   font-size: 5rem;
   font-weight: bolder;
