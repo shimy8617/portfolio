@@ -26,13 +26,78 @@
 }
 
 .presentationTitle h1{
+  margin: 0;
   text-transform: uppercase;
   font-size: 5rem;
   font-weight: bolder;
   color:rgb(231, 231, 231);
+  letter-spacing: 0.2rem;
 }
 
-.presentationTitle span {
+.surname {
+  color: rgb(255, 238, 0);
+  letter-spacing: 0.2rem;
+}
+.completeName {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+.completeName {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+@keyframes fadeInOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes translateAnimation {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-70%);
+  }
+}
+
+.fadeOut {
+  cursor: pointer;
+  animation: fadeInOutAnimation 4s;
+  animation-fill-mode: forwards;
+  padding-right: 0.5rem;
+}
+.fadeIn {
+  cursor: pointer;
+  animation: fadeInOutAnimation 5s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+}
+
+.surname {
+  animation: translateAnimation 1s;
+  animation-delay: 5s;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(255, 238, 0);
+  padding-left: 0.5rem;
+}
+
+.completeName:hover + .nickName {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: bolder;
   color: rgb(255, 238, 0);
 }
 

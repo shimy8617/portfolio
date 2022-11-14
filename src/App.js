@@ -8,9 +8,12 @@ function App() {
       <Navigation />
       <div className="presentation">
         <div className="presentationTitle">
-          <h1>
-            Cristina <span>Shim</span>
+        <div className="completeName">
+          <h1 className="fadeOut">
+            Cristina
           </h1>
+          <span className="surname">Shim<span className="fadeIn">y</span></span>
+        </div>
           <p>React Developer</p>
           <button type="button">Get in touch</button>
         </div>
