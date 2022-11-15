@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Navigation } from "./routes/navigation/navigation";
 import { Home } from "./routes/home/home";
 import { About } from "./routes/about/about";
+import { Contact } from "./routes/contact/contact";
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Navigation />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path='about' element={<About />} />
+        <Route path='contact' element={<Contact />} />
       </Route>
     </Routes>
   );
