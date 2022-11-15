@@ -21,19 +21,19 @@
 
 .navItems a{
     text-decoration: none;
-    padding: 0 0.2rem;
+    padding: 0 0.5rem;
     color: #fff;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.05rem;
 }
 
 .navItems a:hover {
     text-decoration: none;
-    padding: 0 0.2rem;
+    padding: 0 0.5rem;
     color: rgb(255, 238, 0);
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.05rem;
 }
 

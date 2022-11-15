@@ -28,7 +28,7 @@
   }
   
   .presentationTitle h1{
-    margin: 0;
+    margin: 0 5px 0 0;
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bolder;
@@ -70,13 +70,13 @@
   
   .fadeOut {
     cursor: pointer;
-    animation: fadeInOutAnimation 2s;
+    animation: fadeInOutAnimation 4s;
     animation-fill-mode: forwards;
   } 
   
   .fadeIn {
     cursor: pointer;
-    animation: fadeInOutAnimation 3s;
+    animation: fadeInOutAnimation 4s;
     animation-fill-mode: forwards;
     animation-direction: alternate-reverse;
   }
@@ -90,6 +90,7 @@
     color: rgb(255, 238, 0);
     padding-left: 0.1rem;
     letter-spacing: 0.1rem;
+    margin: 0 0 0 5px;
   }
   
   .presentationTitle p {
