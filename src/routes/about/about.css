@@ -1,11 +1,16 @@
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+@keyframes blink {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
 }
 
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
+.type-writer::after {
+    content: "|";
+    animation: blink 1s infinite;
 }
 
 .container {
@@ -25,24 +30,6 @@ h2 {
     letter-spacing: 0.1rem;
     margin: 0.7rem;
 }
-
-.container p {
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    margin: 0 auto;
-    width: 85vw;
-    color: #fff;
-    font-size: 0.9rem;
-    letter-spacing: 0.1rem;
-    margin: auto;
-    text-align: justify;
-    line-height: 1.6rem;
-    animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
 
 .container img {
     width: 10rem;
