@@ -62,6 +62,7 @@ h1 {
 .icon {
   font-size: 5rem;
   text-align: center;
+  margin: 1rem 0;
 }
 
 .btn:hover {
