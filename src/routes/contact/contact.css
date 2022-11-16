@@ -3,3 +3,55 @@ body {
     width: 100vw;
     height: 100vh;
   }
+
+.containerContact {
+  margin: 2rem;
+  height: 100vh;
+  border: 0.2rem solid rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+ span{
+  display: block;
+
+}
+
+h1 {
+  width: 10vh;
+  font-size: 2.8rem;
+  margin: 1rem 0 3rem 0;
+  color: rgb(255, 238, 0);
+  font-weight: 800;
+  letter-spacing: 0.3rem;;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgb(255, 238, 0);
+}
+
+/* h1 span {
+  border: 0.2rem solid rgb(255, 238, 0);
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  box-shadow: 1px 1px 10px rgb(255, 238, 0);
+} */
+
+.socialMedia {
+  height: 60vh;
+}
+
+.col a{
+  height: auto;
+  background-color: #000;
+  border: none;
+}
+
+.icon {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+
+
