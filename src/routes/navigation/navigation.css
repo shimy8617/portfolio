@@ -1,5 +1,5 @@
 .navigation {
-    height: 8vh;
+    height: 12vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -23,8 +23,8 @@
     text-decoration: none;
     padding: 0 0.5rem;
     color: #fff;
-    font-weight: 600;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 16px;
     letter-spacing: 0.05rem;
 }
 
