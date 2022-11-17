@@ -7,7 +7,7 @@ import "./contact.css";
 export const Contact = () => {
   return (
     <div className="containerContact">
-      <h2 className="title">
+      <h2 className="contactTitle">
         <span>Contact</span>
         <span>me:</span>
       </h2>
