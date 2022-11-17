@@ -4,11 +4,35 @@ import { Outlet } from 'react-router-dom';
 import "./navigation.css";
 
 export const Navigation = () => {
+
+  const mouseEnterHandle = (event) => {
+    if (event.target.closest('a')) {
+        event.target.closest('a').querySelectorAll('span').forEach(el => {
+            el.style.width = el.scrollWidth + 'px';
+        })
+    }
+}
+
+const mouseOutHandle = (event) => {
+    if (event.target.closest('a')) {
+        event.target.closest('a').querySelectorAll('span').forEach(el => {
+            el.style.width = 0;
+        })
+    }
+}
+
+document.addEventListener('mouseover', (event) => mouseEnterHandle(event))
+document.addEventListener('mouseout', (event) => mouseOutHandle(event))
+
+document.removeEventListener('mouseover', (event) => mouseEnterHandle(event))
+document.removeEventListener('mouseout', (event) => mouseOutHandle(event))
+
+
   return (
     <Fragment>  
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">Logo</a>
+          <a className="navbar-brand logo" href="/">C<span className='nameHidden'>ristina </span>S<span className='surnameHidden'>him </span></a>
           <button className="navbar-toggler" 
           type="button" 
           data-bs-toggle="collapse" 

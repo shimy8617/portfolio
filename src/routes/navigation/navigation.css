@@ -1,6 +1,33 @@
-.navbar-brand {
-    color:#fff;
+
+.logo {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: rgb(255, 238, 0);
+    letter-spacing: 0.1rem;
 }
+
+a {
+    display: flex;
+  }
+  
+a:hover > .nameHidden {
+      width: calc(56px + 3.2px);
+  }
+  
+  a:hover > .surnameHidden {
+      width: calc(24px + 3.2px);
+  }
+a span {
+    width:0px;
+    overflow:hidden;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-out;
+}
+
+/* .logo:hover .nameHidden {
+    visibility: none;
+} */
 
 .navbar-toggler {
     background-color:rgb(66, 66, 66);
@@ -33,10 +60,9 @@
     flex-direction: row-reverse;
 }
 
-    .navbar-brand {
-        color:#fff;
-    }
-    
+.logo {
+    font-size: 1.5rem;
+}
     .navItems a{
         text-decoration: none;
         padding: 0 0.5rem;
