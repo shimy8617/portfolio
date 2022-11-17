@@ -1,19 +1,10 @@
-.container-fluid {
-    background-color: #000;
-    border:none;
-}
-
 .navbar-brand {
     color:#fff;
 }
 
 .navbar-toggler {
-    background-color:rgb(236, 236, 236);
-    border-color: rgb(236, 236, 236);
-}
-
-#navbarSupportedContent {
-    text-align: right;
+    background-color:rgb(66, 66, 66);
+    border-color: rgb(66, 66, 66);
 }
 
 .navItems a{
@@ -34,82 +25,33 @@
     letter-spacing: 0.05rem;
 }
 
-/* .navigation {
-    height: 12vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.5rem;
-    background-color:#000;
-}
-
-.navigation a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.navLinks {
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-
-.navItems a{
-    text-decoration: none;
-    padding: 0 0.5rem;
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.05rem;
-}
-
-.navItems a:hover {
-    text-decoration: none;
-    padding: 0 0.5rem;
-    color: rgb(255, 238, 0);
-    font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.05rem;
-}
 
 @media only screen and (min-device-width: 768px) {
 
-.navigation {
-    height: 8vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 3rem;
-    background-color:#000;
+#navbarSupportedContent{
+    margin-right: 1rem;
+    flex-direction: row-reverse;
 }
 
-.navigation a {
-    color: #fff;
-    text-decoration: none;
+    .navbar-brand {
+        color:#fff;
+    }
+    
+    .navItems a{
+        text-decoration: none;
+        padding: 0 0.5rem;
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.05rem;
+    }
+    
+    .navItems a:hover {
+        text-decoration: none;
+        padding: 0 0.5rem;
+        color: rgb(255, 238, 0);
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.05rem;
+    }
 }
-
-.navLinks {
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-
-.navItems a{
-    text-decoration: none;
-    padding: 0 2rem;
-    color: #fff;
-    font-weight: bolder;
-    font-size: 15px;
-    letter-spacing: 0.3rem;
-}
-
-.navItems a:hover {
-    text-decoration: none;
-    padding: 0 2rem;
-    color: rgb(255, 238, 0);
-    font-weight: bolder;
-    font-size: 15px;
-    letter-spacing: 0.3rem;
-}
-} */

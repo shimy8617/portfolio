@@ -10,8 +10,10 @@ export const Home = () => {
         <div className="presentationContainer">
           <div className="completeName">
             <h1 className="fadeOut">Cristina</h1>
-            <span className="surname">Shim</span>
-            <span className="fadeIn">y</span>
+            <div className="translateToLeft">
+              <span className="surname">Shim</span>
+              <span className="fadeIn">y</span>
+            </div>
           </div>
           <p>React Developer</p>
           <button type="button">Get in touch</button>

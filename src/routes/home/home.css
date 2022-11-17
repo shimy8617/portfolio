@@ -1,11 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Barlow', sans-serif;
-  } 
-  
-
   .presentation {
     margin: 50% 0;
   }
@@ -52,21 +44,27 @@
     }
   
     to {
-      transform: translateX(-80%);
+      transform: translateX(-75%);
     }
   }
   
-/*   .fadeOut {
+.fadeOut {
     cursor: pointer;
     animation: fadeInOutAnimation 4s;
     animation-fill-mode: forwards;
-  }  */
-  
+}
+
+.translateToLeft {
+  display: flex;
+  animation: translateAnimation 1s forwards;
+  animation-delay: 3s;
+}
+
 .fadeIn {
     cursor: pointer;
-    /*animation: fadeInOutAnimation 4s;
+    animation: fadeInOutAnimation 4s;
     animation-fill-mode: forwards;
-    animation-direction: alternate-reverse;*/
+    animation-direction: alternate-reverse;
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bolder;
@@ -74,8 +72,6 @@
   } 
   
 .surname {
-    /*   animation: translateAnimation 1s forwards;
-    animation-delay: 3s;*/
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bolder;
@@ -105,11 +101,11 @@
     font-weight: bold;
   }
   
-  .presentationbutton:hover {
+  .presentation button:hover {
     border: rgb(255, 238, 0) 0.1rem solid;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 238, 0);
-    font-size: 0.8rem;
+    font-size: 0.86rem;
     border-radius: 2rem;
     padding: 0.2rem 1rem;
     font-weight: thin;
@@ -117,6 +113,117 @@
   
   @media only screen and (min-device-width: 768px) {
   
+    .presentation {
+      margin: 20% 0;
+    }
+    
+  .presentationContainer {
+    display: block;
+    text-align: center;
+  }
   
+    .presentation h1{
+      margin: 0 5px 0 0;
+      text-transform: uppercase;
+      font-size: 5rem;
+      font-weight: bolder;
+      color:rgb(231, 231, 231);
+      letter-spacing: 0.1rem;
+    }
+    
+    .completeName {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .completeName {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 2s linear;
+    } 
+    
+@keyframes fadeInOutAnimation {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+}
+    
+    
+@keyframes translateAnimation {
+  from {
+    transform: translateX(0%);
+  }
+    
+  to {
+    transform: translateX(-75%);
+  }
+}
+    
+.fadeOut {
+      cursor: pointer;
+      animation: fadeInOutAnimation 4s; 
+      animation-fill-mode: forwards;
+}
+  
+.translateToLeft {
+    display: flex;
+    animation: translateAnimation 1s forwards;
+    animation-delay: 3s;
+}
+  
+.fadeIn {
+      cursor: pointer;
+      animation: fadeInOutAnimation 4s;
+      animation-fill-mode: forwards;
+      animation-direction: alternate-reverse;
+      text-transform: uppercase;
+      font-size: 5rem;
+      font-weight: bolder;
+      color: rgb(255, 238, 0);
+} 
+    
+  .surname {
+      text-transform: uppercase;
+      font-size: 5rem;
+      font-weight: bolder;
+      color: rgb(255, 238, 0);
+      padding-left: 0.1rem;
+      letter-spacing: 0.1rem;
+      margin: 0 0 0 5px;
+    }
+    
+    .presentation p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      color: rgb(231, 231, 231);
+    }
+    
+    .presentation button {
+      display: block;
+      margin: auto;
+      border: #000 0.1rem solid;
+      background-color: rgb(255, 238, 0);
+      color: #000;
+      font-size: 1.5rem;
+      border-radius: 2rem;
+      padding: 0.3rem 2rem;
+      font-weight: bold;
+    }
+    
+    .presentation button:hover {
+      border: rgb(255, 238, 0) 0.1rem solid;
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 238, 0);
+      font-size: 0.86rem;
+      border-radius: 2rem;
+      padding: 0.2rem 1rem;
+      font-weight: thin;
+    }
   
   }
