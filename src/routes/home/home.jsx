@@ -7,7 +7,6 @@ export const Home = () => {
     <>
       <Outlet />
       <div className="presentation">
-        <div className="presentationContainer">
           <div className="completeName">
             <h1 className="fadeOut">Cristina</h1>
             <div className="translateToLeft">
@@ -16,8 +15,7 @@ export const Home = () => {
             </div>
           </div>
           <p>React Developer</p>
-          <button type="button">Get in touch</button>
-        </div>
+          <button type="button"><a href="/contact">Get in touch</a></button>
       </div>
     </>
   );
