@@ -2,8 +2,8 @@
 .logo {
     display: flex;
     font-size: 1.2rem;
-    font-weight: 800;
-    color: rgb(255, 238, 0);
+    font-weight: 400;
+    color: #fff;
     letter-spacing: 0.1rem;
 }
 
@@ -18,6 +18,11 @@ a:hover > .nameHidden {
   a:hover > .surnameHidden {
       width: calc(24px + 3.2px);
   }
+
+  .navbar-brand:hover {
+    color: #fff;
+  }
+
 a span {
     width:0px;
     overflow:hidden;
@@ -29,27 +34,27 @@ a span {
     visibility: none;
 } */
 
+.navbar {
+    background-color:#d4a0a0;
+    height: 3.5rem;
+}
+
 .navbar-toggler {
-    background-color:rgb(66, 66, 66);
-    border-color: rgb(66, 66, 66);
+    background-color:#a5ac99;
+    border-color: #a5ac99;
 }
 
 .navItems a{
     text-decoration: none;
     padding: 0 0.5rem;
-    color: #fff;
+    color: #FFFDE4;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.05rem;
 }
 
 .navItems a:hover {
-    text-decoration: none;
-    padding: 0 0.5rem;
-    color: rgb(255, 238, 0);
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: 0.05rem;
+    color: #777777;
 }
 
 
@@ -61,8 +66,7 @@ a span {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.3rem;
 }
     .navItems a{
         text-decoration: none;
@@ -73,12 +77,5 @@ a span {
         letter-spacing: 0.05rem;
     }
     
-    .navItems a:hover {
-        text-decoration: none;
-        padding: 0 0.5rem;
-        color: rgb(255, 238, 0);
-        font-weight: 600;
-        font-size: 18px;
-        letter-spacing: 0.05rem;
-    }
+
 }

@@ -1,6 +1,12 @@
-  .presentation {
+:root {
+  --main-bg-color: #FEF9C7;
+  --bs-body-bg: #242423;
+}
+
+
+.presentation {
     margin: 50% 0;
-  }
+}
   
 .presentationContainer {
   display: block;
@@ -11,8 +17,7 @@
     margin: 0 5px 0 0;
     text-transform: uppercase;
     font-size: 2rem;
-    font-weight: bolder;
-    color:rgb(231, 231, 231);
+    color: #e46c6c;
     letter-spacing: 0.1rem;
   }
   
@@ -67,15 +72,13 @@
     animation-direction: alternate-reverse;
     text-transform: uppercase;
     font-size: 2rem;
-    font-weight: bolder;
-    color: rgb(255, 238, 0);
+    color: var(--main-bg-color);
   } 
   
 .surname {
     text-transform: uppercase;
     font-size: 2rem;
-    font-weight: bolder;
-    color: rgb(255, 238, 0);
+    color: var(--main-bg-color);
     padding-left: 0.1rem;
     letter-spacing: 0.1rem;
     margin: 0 0 0 5px;
@@ -86,25 +89,23 @@
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    color: rgb(231, 231, 231);
+    color: #F6ECEC;
   }
   
   .presentation button {
     display: block;
     margin: auto;
-    border: #000 0.1rem solid;
-    background-color: rgb(255, 238, 0);
-    color: #000;
+    border: none;
+    background-color: #b88787;
+    color: #F6ECEC;
     font-size: 0.8rem;
     border-radius: 2rem;
-    padding: 0.2rem 1rem;
-    font-weight: bold;
+    padding: 0.2rem 0.6rem;
   }
   
   .presentation button:hover {
-    border: rgb(255, 238, 0) 0.2rem solid;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 238, 0);
+    border: var(--main-bg-color);
+    background-color: #ebebeb;
     font-size: 0.9rem;
     border-radius: 2rem;
     padding: 0.2rem 1rem;
@@ -113,13 +114,13 @@
 
   
   .presentation button a {
-    color: #000;
+    color: #F6ECEC;
     text-decoration: none;
   }
   
 
   .presentation button a:hover {
-    color: rgb(255, 238, 0);
+    color: #b88787;
     text-decoration: none;
   }
 
@@ -138,9 +139,7 @@
     .presentation h1{
       margin: 0 5px 0 0;
       text-transform: uppercase;
-      font-size: 5rem;
-      font-weight: bolder;
-      color:rgb(231, 231, 231);
+      font-size: 6rem;
       letter-spacing: 0.1rem;
     }
     
@@ -194,16 +193,14 @@
       animation-fill-mode: forwards;
       animation-direction: alternate-reverse;
       text-transform: uppercase;
-      font-size: 5rem;
-      font-weight: bolder;
-      color: rgb(255, 238, 0);
+      font-size: 6rem;
+      color: var(--main-bg-color);
 } 
     
   .surname {
       text-transform: uppercase;
-      font-size: 5rem;
-      font-weight: bolder;
-      color: rgb(255, 238, 0);
+      font-size: 6rem;
+      color: var(--main-bg-color);
       padding-left: 0.1rem;
       letter-spacing: 0.1rem;
       margin: 0 0 0 5px;
@@ -213,40 +210,31 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      font-size: 2.5rem;
-      color: rgb(231, 231, 231);
+      font-size: 2rem;
+      color: #F6ECEC;
     }
     
     .presentation button {
       display: block;
       margin: auto;
-      border: #000 0.1rem solid;
-      background-color: rgb(255, 238, 0);
-      color: #000;
-      font-size: 1.5rem;
+      background-color: #b88787;
+      color: #F6ECEC;
+      font-size: 1.1rem;
       border-radius: 2rem;
-      padding: 0.3rem 2rem;
-      font-weight: bold;
+      padding: 0.3rem 1.2rem;
     }
     
     .presentation button:hover {
-      border: rgb(255, 238, 0) 0.2rem solid;
-      background-color: rgb(0, 0, 0);
-      color: rgb(255, 238, 0);
-      font-size: 1.5rem;
+      border: var(--main-bg-color);
+      background-color: #ebebeb;
+      font-size: 1.1rem;
       border-radius: 2rem;
-      padding: 0.3rem 2rem;
+      padding: 0.3rem 1.2rem;
       font-weight: thin;
     }
 
-    .presentation button a {
-      color: #000;
-      text-decoration: none;
-    }
-    
-
     .presentation button a:hover {
-      color: rgb(255, 238, 0);
+      color: #b88787;
       text-decoration: none;
     }
   

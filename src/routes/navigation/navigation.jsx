@@ -30,7 +30,7 @@ document.removeEventListener('mouseout', (event) => mouseOutHandle(event))
 
   return (
     <Fragment>  
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand logo" href="/">C<span className='nameHidden'>ristina </span>S<span className='surnameHidden'>him </span></a>
           <button className="navbar-toggler" 

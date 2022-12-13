@@ -8,8 +8,7 @@ export const Contact = () => {
   return (
     <div className="containerContact">
       <h2 className="contactTitle">
-        <span>Contact</span>
-        <span>me:</span>
+        Contact Me:
       </h2>
       <div className="row row-cols-1 socialMedia">
         <div className="col">
