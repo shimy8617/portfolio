@@ -1,7 +1,28 @@
-h1 {
+:root {
+    --main-bg-color: #FEF9C7;
+  }
+  
+  h1 {
     font-size: 2rem;
-    margin: 1rem 0 3rem 0;
-    color: rgb(255, 238, 0);
-    letter-spacing: 0.3rem;
+    margin: 3rem 0;
+    
+    color: var(--main-bg-color);
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
+}
+
+.col a {
+    background-color: transparent;
+}
+
+.card-body{
+    background-color: #242423;
+}
+
+.card-body h5 {
+    color: #e46c6c;
+}
+
+.card-body p {
+    color: #F6ECEC;
 }
