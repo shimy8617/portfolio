@@ -15,8 +15,23 @@
     background-color: transparent;
 }
 
+.card {
+    margin: 1rem;
+    border-radius: 2.8rem;
+    border: none;
+}
+
+.card img{
+    width: 50%;
+    height: 25vw;
+    object-fit: cover;
+}
+
 .card-body{
-    background-color: #242423;
+    border: none;
+    background-color: #313131;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .card-body h5 {
