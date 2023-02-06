@@ -2,13 +2,8 @@
     --main-bg-color: #ff6565;
   }
   
-  h1 {
-    font-size: 2rem;
+  h2 {
     margin: 3rem 0;
-    
-    color: var(--main-bg-color);
-    letter-spacing: 0.2rem;
-    text-transform: uppercase;
 }
 
 .col a {
@@ -23,7 +18,7 @@
     padding: 1rem 0;
 }
 
-.card-body h5 {
+.card-body h4 {
     color: #e46c6c;
 }
 
@@ -49,10 +44,6 @@
     background-color: #313131;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-}
-
-.card-body h5 {
-    color: #e46c6c;
 }
 
 .card-body p {

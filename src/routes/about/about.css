@@ -2,14 +2,6 @@
   --main-bg-color: #FEF9C7;
 }
 
-.aboutTitle {
-    color: #ff6565;
-    font-weight: bolder;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-}
-
 .container img {
     width: 10rem;
     height: auto;
@@ -32,9 +24,6 @@ p {
 @media only screen and (min-device-width: 768px) {
   
   .aboutTitle {
-      font-size: 3rem;
-      text-transform: uppercase;
-      letter-spacing: 0.2rem;
       margin-bottom: 2rem;
   }
   
@@ -42,7 +31,7 @@ p {
       width: 16rem;
       height: auto;
       border-radius: 50%;
-      margin: 4rem auto;
+      margin: 3rem auto;
   }
 
     p {

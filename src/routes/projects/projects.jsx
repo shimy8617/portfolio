@@ -9,7 +9,7 @@ export const Projects = () => {
   return (
     <Fragment>
       <div className="container-fluid text-center">
-        <h1>My Projects</h1>
+        <h2>My Projects</h2>
         <div className="row row-cols-2 row-cols-md-2 g-4">
           <div className="col">
             <div className="card h-100">
@@ -17,7 +17,7 @@ export const Projects = () => {
                 <img src={woocommerce} className="card-img-top" alt="aypoo" />
               </a>
               <div className="card-body">
-                <h5 className="card-title">Ecommerce</h5>
+                <h4 className="card-title">Ecommerce</h4>
                 <p className="card-text">Wordpress Website for an Ecommerce</p>
               </div>
             </div>
@@ -28,7 +28,7 @@ export const Projects = () => {
                 <img src={calc} className="card-img-top" alt="react cal" />
               </a>
               <div className="card-body">
-                <h5 className="card-title">React Calculator</h5>
+                <h4 className="card-title">React Calculator</h4>
                 <p className="card-text">
                   This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
