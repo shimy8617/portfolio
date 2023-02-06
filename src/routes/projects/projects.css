@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #FEF9C7;
+    --main-bg-color: #ff6565;
   }
   
   h1 {
@@ -15,6 +15,23 @@
     background-color: transparent;
 }
 
+.card-body {
+    border: none;
+    background-color: #313131;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem 0;
+}
+
+.card-body h5 {
+    color: #e46c6c;
+}
+
+.card-body p {
+    color: #F6ECEC;
+}
+
+@media only screen and (min-device-width: 768px) {
 .card {
     margin: 1rem;
     border-radius: 2.8rem;
@@ -40,4 +57,5 @@
 
 .card-body p {
     color: #F6ECEC;
+}
 }

@@ -24,7 +24,7 @@ export const Projects = () => {
           </div>
           <div className="col">
             <div className="card h-100">
-              <a href="https://shimy8617.github.io/React-Calculator/">
+              <a href="https://react-calc-6b4d1.web.app/">
                 <img src={calc} className="card-img-top" alt="react cal" />
               </a>
               <div className="card-body">
@@ -37,7 +37,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <div className="card h-100">
               <img src="..." className="card-img-top" alt="..." />
               <div className="card-body">
@@ -61,7 +61,7 @@ export const Projects = () => {
                 </p>
               </div>
             </div>
-          </div>
+  </div> */}
         </div>
       </div>
     </Fragment>

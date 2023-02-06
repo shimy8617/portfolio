@@ -1,8 +1,3 @@
-:root {
-  --main-bg-color: #FEF9C7;
-  --bs-body-bg: #242423;
-}
-
 
 .presentation {
     margin: 50% 0;
@@ -15,10 +10,9 @@
 
   .presentation h1{
     margin: 0 5px 0 0;
-    text-transform: uppercase;
     font-size: 2rem;
-    color: #e46c6c;
-    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    color: #ff6565;
   }
   
   .completeName {
@@ -72,13 +66,15 @@
     animation-direction: alternate-reverse;
     text-transform: uppercase;
     font-size: 2rem;
-    color: var(--main-bg-color);
+    font-weight: bolder;
+    color: #ffb6b6;
   } 
   
 .surname {
     text-transform: uppercase;
     font-size: 2rem;
-    color: var(--main-bg-color);
+    font-weight: bolder;
+    color: #ffb6b6;
     padding-left: 0.1rem;
     letter-spacing: 0.1rem;
     margin: 0 0 0 5px;
@@ -96,8 +92,7 @@
     display: block;
     margin: auto;
     border: none;
-    background-color: #b88787;
-    color: #F6ECEC;
+    background-color: #ffb6b6;
     font-size: 0.8rem;
     border-radius: 2rem;
     padding: 0.2rem 0.6rem;
@@ -105,7 +100,7 @@
   
   .presentation button:hover {
     border: var(--main-bg-color);
-    background-color: #ebebeb;
+    background-color: #f47f7f;
     font-size: 0.9rem;
     border-radius: 2rem;
     padding: 0.2rem 1rem;
@@ -114,13 +109,14 @@
 
   
   .presentation button a {
-    color: #F6ECEC;
+    color: #464245;
     text-decoration: none;
+    font-weight: 700;
   }
   
 
   .presentation button a:hover {
-    color: #b88787;
+    color: #464245;
     text-decoration: none;
   }
 
@@ -138,9 +134,7 @@
   
     .presentation h1{
       margin: 0 5px 0 0;
-      text-transform: uppercase;
       font-size: 6rem;
-      letter-spacing: 0.1rem;
     }
     
     .completeName {
@@ -194,13 +188,13 @@
       animation-direction: alternate-reverse;
       text-transform: uppercase;
       font-size: 6rem;
-      color: var(--main-bg-color);
+      color: #ffb6b6;
 } 
     
   .surname {
       text-transform: uppercase;
       font-size: 6rem;
-      color: var(--main-bg-color);
+      color: #ffb6b6;
       padding-left: 0.1rem;
       letter-spacing: 0.1rem;
       margin: 0 0 0 5px;
@@ -217,8 +211,6 @@
     .presentation button {
       display: block;
       margin: auto;
-      background-color: #b88787;
-      color: #F6ECEC;
       font-size: 1.1rem;
       border-radius: 2rem;
       padding: 0.3rem 1.2rem;
@@ -226,16 +218,11 @@
     
     .presentation button:hover {
       border: var(--main-bg-color);
-      background-color: #ebebeb;
       font-size: 1.1rem;
       border-radius: 2rem;
       padding: 0.3rem 1.2rem;
       font-weight: thin;
     }
 
-    .presentation button a:hover {
-      color: #b88787;
-      text-decoration: none;
-    }
   
   }

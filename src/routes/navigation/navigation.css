@@ -35,21 +35,21 @@ a span {
 } */
 
 .navbar {
-    background-color:#d4a0a0;
+    background-color:#464245;
     height: 3.5rem;
 }
 
 .navbar-toggler {
-    background-color:#a5ac99;
-    border-color: #a5ac99;
+    background-color:#ffb6b6;
+    border-color: #ffb6b6;
 }
 
 .navItems a{
     text-decoration: none;
-    padding: 0 0.5rem;
+    padding: 0.2rem 0;
     color: #FFFDE4;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0.05rem;
 }
 
@@ -69,6 +69,7 @@ a span {
     font-size: 1.3rem;
 }
     .navItems a{
+        margin-right: 3rem;
         text-decoration: none;
         padding: 0 0.5rem;
         color: #fff;
