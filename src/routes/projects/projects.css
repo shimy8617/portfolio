@@ -1,13 +1,14 @@
-:root {
-    --main-bg-color: #ff6565;
-  }
-  
-  h2 {
+
+h2 {
     margin: 3rem 0;
 }
 
 .col a {
     background-color: transparent;
+}
+
+.card {
+    background-color: #313131;
 }
 
 .card-body {
@@ -31,6 +32,7 @@
     margin: 1rem;
     border-radius: 2.8rem;
     border: none;
+    background-color: #F6ECEC;
 }
 
 .card img{

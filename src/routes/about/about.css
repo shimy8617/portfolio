@@ -6,11 +6,13 @@
     width: 10rem;
     height: auto;
     border-radius: 50%;
-    margin: 3rem auto;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   font-size: 18px;
   color: #F6ECEC;
   text-align: justify;
@@ -30,8 +32,6 @@ p {
   .container img {
       width: 16rem;
       height: auto;
-      border-radius: 50%;
-      margin: 3rem auto;
   }
 
     p {

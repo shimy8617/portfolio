@@ -10,7 +10,7 @@ export const Projects = () => {
     <Fragment>
       <div className="container-fluid text-center">
         <h2>My Projects</h2>
-        <div className="row row-cols-2 row-cols-md-2 g-4">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
             <div className="card h-100">
               <a href="https://aypoo.com.ar">

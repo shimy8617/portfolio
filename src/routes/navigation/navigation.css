@@ -19,11 +19,6 @@
 .navbar {
     background-color:#464245;
     height: 3.5rem;
-    padding: 0 0.5rem;
-    --bs-navbar-toggler-border-color: none;
-    --bs-navbar-toggler-font-size: 1rem;    
-    --bs-navbar-toggler-padding-y: 0.35rem;
-    --bs-navbar-toggler-padding-x: 0.7rem;
 }
 
 .navbar-toggler {
@@ -90,6 +85,10 @@ a span {
     overflow:hidden;
     transition: all 0.3s ease-in;
     transition: all 0.3s ease-out;
+}
+
+ul {
+    margin-top: 0;
 }
 
 }

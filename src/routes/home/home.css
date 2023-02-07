@@ -43,20 +43,21 @@
     }
   
     to {
-      transform: translateX(-75%);
+      transform: translateX(-67%);
     }
   }
   
 .fadeOut {
     cursor: pointer;
-    animation: fadeInOutAnimation 4s;
+    animation: fadeInOutAnimation 5s;
     animation-fill-mode: forwards;
+    text-transform: uppercase;
 }
 
 .translateToLeft {
   display: flex;
-  animation: translateAnimation 1s forwards;
-  animation-delay: 3s;
+  animation: translateAnimation 2s forwards;
+  animation-delay: 4s;
 }
 
 .fadeIn {
@@ -148,26 +149,6 @@
       opacity: 1;
       transition: opacity 2s linear;
     } 
-    
-@keyframes fadeInOutAnimation {
-      0% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-}
-    
-    
-@keyframes translateAnimation {
-  from {
-    transform: translateX(0%);
-  }
-    
-  to {
-    transform: translateX(-75%);
-  }
-}
     
 .fadeOut {
       cursor: pointer;
