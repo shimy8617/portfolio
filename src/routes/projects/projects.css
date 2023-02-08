@@ -3,11 +3,16 @@ h2 {
     margin: 3rem 0;
 }
 
-.col a {
-    background-color: transparent;
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.card {
+a:hover {
+    color: rgb(192, 192, 192);
+}
+
+/* .card {
     background-color: #313131;
 }
 
@@ -25,7 +30,7 @@ h2 {
 
 .card-body p {
     color: #F6ECEC;
-}
+} 
 
 @media only screen and (min-device-width: 768px) {
 .card {
@@ -49,3 +54,5 @@ h2 {
 }
 
 }
+
+*/
