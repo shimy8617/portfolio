@@ -46,6 +46,18 @@
       transform: translateX(-67%);
     }
   }
+
+  
+  @keyframes fade-in-move-down {
+    0% {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
 .fadeOut {
     cursor: pointer;
@@ -97,6 +109,8 @@
     font-size: 0.8rem;
     border-radius: 2rem;
     padding: 0.2rem 0.6rem;
+    animation: fade-in-move-down 2s;
+    animation-delay: 2s;
   }
   
   .presentation button:hover {
@@ -123,6 +137,7 @@
 
   .profesion {
     margin-bottom: 1.5rem;
+    animation: fade-in-move-down 2s;
   }
 
   
