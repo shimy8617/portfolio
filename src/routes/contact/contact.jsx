@@ -7,9 +7,7 @@ import "./contact.css";
 export const Contact = () => {
   return (
     <div className="containerContact">
-      <h2 className="contactTitle">
-        Contact Me:
-      </h2>
+      <h2 className="contactTitle display-3 fw-bolder">Contact Me:</h2>
       <div className="row row-cols-1 socialMedia">
         <div className="col">
           <a

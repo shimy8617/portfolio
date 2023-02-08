@@ -12,11 +12,8 @@
 }
 
 p {
-  padding: 0 2rem;
-  font-size: 18px;
+
   color: #F6ECEC;
-  text-align: justify;
-  letter-spacing: 1px;
 }
 
 
@@ -34,10 +31,5 @@ p {
       height: auto;
   }
 
-    p {
-      width: 70%;
-      margin: auto;
-      font-size: 20px;
-    }
 
 }
