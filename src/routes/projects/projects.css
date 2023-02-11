@@ -1,3 +1,10 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 3.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
 
 h2 {
     margin: 3rem 0;
@@ -12,47 +19,21 @@ a:hover {
     color: rgb(192, 192, 192);
 }
 
-/* .card {
-    background-color: #313131;
-}
-
-.card-body {
-    border: none;
-    background-color: #313131;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    padding: 1rem 0;
-}
-
-.card-body h4 {
-    color: #e46c6c;
-}
-
-.card-body p {
-    color: #F6ECEC;
-} 
-
-@media only screen and (min-device-width: 768px) {
-.card {
+.btn-projects {
     margin: 1rem;
-    border-radius: 2.8rem;
-    border: none;
-    background-color: #F6ECEC;
+    background-color: var(--bs-danger-bg-subtle);
+    color: rgb(165, 165, 165);
+    --bs-btn-border-color: #ff8585;
 }
 
-.card img{
-    width: 50%;
-    height: 25vw;
-    object-fit: cover;
+.btn-projects:hover {
+    background-color: #fcadad;
+    border-color: #fcadad;
+    color: #353535;
 }
 
-.card-body{
-    border: none;
-    background-color: #313131;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+@media (min-width: 768px) {
+.btn-projects {
+        margin: 2rem;
+    }
 }
-
-}
-
-*/
