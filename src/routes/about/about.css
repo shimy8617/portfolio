@@ -15,7 +15,7 @@
   flex-wrap: wrap;
 }
 
-.container img {
+.profileImg {
     width: 10rem;
     height: auto;
     border-radius: 50%;
