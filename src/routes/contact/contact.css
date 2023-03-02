@@ -15,7 +15,9 @@
 
 .socialMedia {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
 }
 
 .icon {
@@ -40,7 +42,7 @@
 @media (min-width: 768px) {
 
 .socialMedia {
-  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .col a {
