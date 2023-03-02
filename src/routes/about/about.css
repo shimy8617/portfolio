@@ -3,43 +3,37 @@
 }
 
 .containerAbout {
-    width: 100vw;
     height: calc(100vh - 3.5rem);
+    padding: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    padding: 1rem;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
 }
 
-.container img {
-    width: 10rem;
-    height: auto;
-    border-radius: 50%;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p {
-
+.lead {
   color: #F6ECEC;
+}
+
+b {
+  font-weight: 600;
 }
 
 
 
 /*-------------- DESKTOP ----------------*/
 
-@media (min-width: 768x){
+@media (min-width: 768px){
 
-  
-  .container img {
-      width: 12rem;
-      height: auto;
+.containerAbout {
+    padding: 6rem;
   }
-
+  
 
 }

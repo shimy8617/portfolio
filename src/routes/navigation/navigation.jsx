@@ -34,44 +34,40 @@ export const Navigation = () => {
 
   return (
     <Fragment>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand logo" href="/">
-            C<span className="nameHidden">ristina </span>S
-            <span className="surnameHidden">him </span>
+          <a className="navbar-brand" href="/">
+            Shimy's Portfolio
           </a>
           <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target=".dual-collapse2"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div
-            className="navbar-collapse collapse w-100 order-3 dual-collapse2"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav ml-auto">
-              <li className="navItems">
-                <a className="nav-link" aria-current="page" href="/">
+          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
-              <li className="navItems">
+              <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="/about">
                   About me
                 </a>
               </li>
-              <li className="navItems">
+              <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="/projects">
                   Projects
                 </a>
               </li>
-              <li className="navItems">
+              <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="/contact">
                   Contact
                 </a>

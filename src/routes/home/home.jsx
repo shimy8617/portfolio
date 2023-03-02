@@ -16,7 +16,7 @@ export const Home = () => {
             </div>
           </div>
           <p className="profesion">React Developer</p>
-          <button type="button">
+          <button className="btn btn-outline-secondary btn-lg" type="button">
             <a href="/contact">Get in touch</a>
           </button>
         </div>

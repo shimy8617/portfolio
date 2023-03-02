@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <div className="container">
       <div className="containerContact">
-        <h2 className="contactTitle display-3 fw-bolder">Contact Me:</h2>
+        <h2>Contact Me:</h2>
         <div className="row row-cols-1 socialMedia">
           <div className="col p-2">
             <a
@@ -29,11 +29,7 @@ export const Contact = () => {
             </a>
           </div>
           <div className="col p-2">
-            <a
-              href="https://www.linkedin.com/in/cristina-elisabet-shim-b5809ba8/"
-              role="button"
-              title="Email"
-            >
+            <a href="/" role="button" title="Email">
               <FaAt className="icon" />
             </a>
           </div>

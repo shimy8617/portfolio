@@ -8,14 +8,6 @@ import { Contact } from "./routes/contact/contact";
 import { Projects } from "./routes/projects/projects";
 
 function App() {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty("--vh", `${vh}px`);
-
-  window.addEventListener("resize", () => {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  });
-
   return (
     <Routes>
       <Route path="/" element={<Navigation />}>
