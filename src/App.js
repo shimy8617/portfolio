@@ -9,14 +9,13 @@ import { Projects } from "./routes/projects/projects";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Navigation />}>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="projects" element={<Projects />} />
-      </Route>
-    </Routes>
+    <main>
+      <Navigation />
+      <Home />
+      <About />
+      <Contact />
+      <Projects />
+    </main>
   );
 }
 

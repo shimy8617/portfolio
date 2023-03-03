@@ -6,8 +6,8 @@ export const Home = () => {
   return (
     <>
       <Outlet />
-      <div className="container">
-        <div className="presentation">
+      <div className="container homeContainer  d-flex flex-column justify-content-center align-items-center px-5 py-5 mx-auto">
+        <div className="presentation  flex-grow pr-5 text-center">
           <div className="completeName">
             <h1 className="fadeOut">Cristina</h1>
             <div className="translateToLeft">
@@ -15,10 +15,14 @@ export const Home = () => {
               <span className="fadeIn">y</span>
             </div>
           </div>
-          <p className="profesion">React Developer</p>
-          <button className="btn btn-outline-secondary btn-lg" type="button">
-            <a href="/contact">Get in touch</a>
-          </button>
+          <p className="profesion fw-bold">React Developer</p>
+          <a
+            className="btn btn-outline-dark btn-lg getInTouch"
+            type="button"
+            href="/contact"
+          >
+            Get in touch
+          </a>
         </div>
       </div>
     </>

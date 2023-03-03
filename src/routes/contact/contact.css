@@ -1,29 +1,24 @@
-.container {
-  width: 100vw;
-  height: calc(100vh - 3.5rem);
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-
-.containerContact {
+.containerForm {
   display: block;
-  text-align: center;
-  margin: 5rem 0;
 }
 
+.contContact {
+  height: 100vh;
+}
 .socialMedia {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center
+  flex-direction: row;
 }
 
 .icon {
-  font-size: 2.8rem;
+  font-size: 3rem;
   text-align: center;
   margin: 1rem 0;
+  color: rgb(71, 71, 71);
+}
+.iconEmail {
+  font-size: 2rem;
+  color: rgb(71, 71, 71);
 }
 
 .col a{
@@ -39,19 +34,89 @@
   border: none;
   transform: scale(1.2);
 }
+
+.form-label {
+  color: #ed505f;
+  display: inline-flex;
+  padding: 0 5px;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  transform: translate(25px, 50%);
+  font-weight: 800;
+  background-color: #f1f1f1;
+}
+
+.form-control {
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 2rem;
+  padding: 0.7rem;
+  border-radius: 20px;
+  width: 100%;
+  resize: none;
+}
+
+#exampleFormControlInput {
+  color: #eaeaea;
+  border: 4px solid #ed505f;
+  transition: border 0.2s ease-in-out;
+  font-weight: 500;
+  background-color: #f1f1f1;
+}
+
+#exampleFormControlInput1 {
+  color: #eaeaea;
+  border: 4px solid #ed505f;
+  transition: border 0.2s ease-in-out;
+  font-weight: 500;
+  background-color: #f1f1f1;
+}
+
+#exampleFormControlTextarea1 {
+  color: #eaeaea;
+  border: 4px solid #ed505f;
+  transition: border 0.2s ease-in-out;
+  font-weight: 500;
+  background-color: #f1f1f1;
+}
+
+.email {
+  color:#383838;
+  text-decoration : none;
+  font-size: 1.5rem
+}
+
 @media (min-width: 768px) {
 
 .socialMedia {
+  width: 100%;
+  display: flex;
   flex-direction: row;
 }
+
+form {
+  width: 90%;
+}
+
+.containerForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 
 .col a {
   display: flex;
 }
 
 .icon {
-  font-size: 4rem;
+  font-size: 4.5rem;
   text-align: center;
+}
+
+.iconEmail {
+  font-size: 3rem;
+  color: rgb(71, 71, 71);
 }
 
 .row-cols-1>* {

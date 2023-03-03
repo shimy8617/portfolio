@@ -2,27 +2,29 @@
   --main-bg-color: #FEF9C7;
 }
 
-.containerAbout {
-    height: calc(100vh - 3.5rem);
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+.containerAboutBox {
+  height: 100vh;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+.containerForm {
+width: 100vw;
 }
 
-.lead {
-  color: #F6ECEC;
+p {
+  color: #383838;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 5rem;
 }
 
 b {
   font-weight: 600;
+}
+
+.firebaseLogo {
+  width: 1em;
+  height: 1em;
+  color: var(--bs-body-color);
 }
 
 
@@ -31,9 +33,9 @@ b {
 
 @media (min-width: 768px){
 
-.containerAbout {
-    padding: 6rem;
-  }
-  
+p {
+  margin: 0 auto 4rem auto;
+  font-size: 26px;
+}
 
 }

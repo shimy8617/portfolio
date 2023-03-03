@@ -7,9 +7,9 @@ import fetchApiIMDB from "../../assets/fetchAPI.png";
 
 export const Projects = () => {
   return (
-    <div className="projects">
-      <div className="container-fluid text-center">
-        <h2>My Projects</h2>
+    <div className="container projects d-flex flex-column justify-content-center align-items-center px-5 py-5 mx-auto">
+      <div className="container-fluid flex-grow pr-5 text-center">
+        <h2 className="display-1 fw-bolder">My Projects</h2>
 
         {/*   ECOMMERCE WITH WORDPRESS  */}
         <button
@@ -53,7 +53,9 @@ export const Projects = () => {
                   Close
                 </button>
                 <button type="button" className="btn btn-primary">
-                  <a href="https://aypoo.com.ar">Open</a>
+                  <a className="linkProject" href="https://aypoo.com.ar">
+                    Open
+                  </a>
                 </button>
               </div>
             </div>
@@ -102,7 +104,12 @@ export const Projects = () => {
                   Close
                 </button>
                 <button type="button" className="btn btn-danger">
-                  <a href="https://react-calc-6b4d1.web.app/">Open</a>
+                  <a
+                    className="linkProject"
+                    href="https://react-calc-6b4d1.web.app/"
+                  >
+                    Open
+                  </a>
                 </button>
               </div>
             </div>
@@ -155,7 +162,12 @@ export const Projects = () => {
                   Close
                 </button>
                 <button type="button" className="btn btn-danger">
-                  <a href="https://fetch-api-e8f71.web.app/">Open</a>
+                  <a
+                    className="linkProject"
+                    href="https://fetch-api-e8f71.web.app/"
+                  >
+                    Open
+                  </a>
                 </button>
               </div>
             </div>
