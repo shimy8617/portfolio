@@ -27,11 +27,21 @@
     transform: scale(1.15);
 }
 
+.projectsContainer {
+    margin-top: 3rem;
+    display: block;
+}
+
 @media (min-width: 768px) {
+
 .btn-projects {
         margin: 2rem;
         font-size: 18px;
     }
-
+    
+.projectsContainer {
+    display: flex;
+    justify-content: space-around;
+}
 
 }

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
@@ -17,9 +18,8 @@ const firebaseConfig = {
   measurementId: "G-TR3YKPP7Z5",
 };
 
-const fire = initializeApp(firebaseConfig);
-
-export default fire;
+export const fire = initializeApp(firebaseConfig);
+export const db = getFirestore(fire);
 
 const auth = getAuth(fire);
 onAuthStateChanged(auth, (user) => {

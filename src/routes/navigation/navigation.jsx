@@ -1,37 +1,10 @@
+import { React } from "react";
 import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 
 import "./navigation.css";
 
 export const Navigation = () => {
-  const mouseEnterHandle = (event) => {
-    if (event.target.closest("a")) {
-      event.target
-        .closest("a")
-        .querySelectorAll("span")
-        .forEach((el) => {
-          el.style.width = el.scrollWidth + "px";
-        });
-    }
-  };
-
-  const mouseOutHandle = (event) => {
-    if (event.target.closest("a")) {
-      event.target
-        .closest("a")
-        .querySelectorAll("span")
-        .forEach((el) => {
-          el.style.width = 0;
-        });
-    }
-  };
-
-  document.addEventListener("mouseover", (event) => mouseEnterHandle(event));
-  document.addEventListener("mouseout", (event) => mouseOutHandle(event));
-
-  document.removeEventListener("mouseover", (event) => mouseEnterHandle(event));
-  document.removeEventListener("mouseout", (event) => mouseOutHandle(event));
-
   return (
     <Fragment>
       <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
@@ -53,22 +26,22 @@ export const Navigation = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link" aria-current="page" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/about">
+                <a className="nav-link" aria-current="page" href="#about">
                   About me
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/projects">
+                <a className="nav-link" aria-current="page" href="#projects">
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/contact">
+                <a className="nav-link" aria-current="page" href="#contact">
                   Contact
                 </a>
               </li>

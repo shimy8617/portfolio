@@ -3,29 +3,18 @@
     background-color:#272727;
     height: 3.5rem;
 }
-
-/* .navbar-toggler {
-    background-color:rgb(142, 142, 142);
-    border-color: rgb(142, 142, 142);
-}
-.navbar-toggler:hover {
-    background-color: rgb(196, 196, 196);
-    border-color: rgb(196, 196, 196);
-    transform: scale(1.1);
-} */
+        
 .navbar-brand:hover {
     color: #777777;
 }
 
-/* .navItems a{
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0.2rem 0;
-    color: #e7e7e7;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.05rem;
-} */
+.nav-item a {
+    color: #6a6a6a;
+}
+
+.nav-item a:hover {
+    color: rgb(116 116 116 / 75%);
+}
 
 .navItems a:hover {
     color: #777777;
@@ -35,7 +24,14 @@ ul {
     margin-top: 15px;
 }
  */
-@media only screen and (min-device-width: 768px) {
+@media (min-width: 768px) {
+
+    .navbar {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 1;
+        }
 
 #navbarSupportedContent{
     margin-right: 1rem;
@@ -45,13 +41,12 @@ ul {
 .logo {
     font-size: 1.3rem;
 }
+.nav-item a {
+    color: #dadada;
+}
 
-.navItems a{
-    margin-right: 2rem;
-    text-decoration: none;
-    color: #e7e7e7;
-    font-weight: 400;
-    font-size: 16px;
+.nav-item a:hover {
+    color: rgb(116 116 116 / 75%);
 }
 
 a {
