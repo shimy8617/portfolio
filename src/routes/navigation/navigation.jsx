@@ -7,7 +7,7 @@ import "./navigation.css";
 export const Navigation = () => {
   return (
     <Fragment>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-light ">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             Shimy's Portfolio

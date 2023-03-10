@@ -1,7 +1,6 @@
 .homeContainer {
   height: calc(100vh - 3.5rem);
   width: 100vw;
-  padding: 2rem;
 }
 
 .presentation {
@@ -13,7 +12,7 @@
     margin: 0 5px 0 0;
     font-size: 3.1rem;
     font-weight: bolder;
-    color: #ff6565;
+    color: #f57682;
   }
   
   .completeName {
@@ -57,6 +56,7 @@
 .fadeOut {
     cursor: pointer;
     animation: fadeInOutAnimation 5s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
     text-transform: uppercase;
 }
@@ -75,7 +75,7 @@
     text-transform: uppercase;
     font-size: 3.1rem;
     font-weight: bolder;
-    color: #ed505f;
+    color: #f46d7a;
   } 
   
 .surname {
@@ -84,7 +84,7 @@
     font-weight: bolder;
     letter-spacing: 0.05rem;
     margin: 0 0 0 5px;
-    color: #ed505f;
+    color: #f46d7a;
   }
   
   .presentation p {
@@ -92,35 +92,37 @@
     justify-content: center;
     align-items: center;
     font-size: 1.8rem;
+    font-weight: 600;
     text-transform: uppercase;
-    color: #383838;
+    color: #5b5b5b;
     margin-bottom: 0.7rem;
     animation: fade-in-move-down 2s;
   }
   
 .getInTouch {
-    --bs-btn-border-radius: 1rem;
-    border: 0.2rem solid;
+    --bs-btn-border-radius: 5rem;
+    border: none;
     transition: 1s;
-    text-transform: uppercase;
     animation: fade-in-move-down 5s;
-    font-weight: 700;
-    padding: 0.5rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    background-color: #f0d0c2;
+    color: #f1838e;
   }
   
 .getInTouch:hover {
-    transform: scale(1.07);
+    transform: scale(1.05);
   }
   
-  .getInTouch button:hover a {
-    color: black;
+  .getInTouch:hover {
+    color: #f1838e;
+      ;
   }
 
 .btn-lg {
   font-size: 1rem;
 }
 
-  
 @media (min-width: 768px) {
   .homeContainer {
       height: calc(100vh - 3.5rem);
@@ -175,11 +177,11 @@
     }
     
     .presentation p {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin-bottom: 14px;
     }
 .getInTouch {
-  width: 35%;
+  padding: 0.5rem 1rem;
 }
 .btn-lg {
   font-size: 1.3rem;

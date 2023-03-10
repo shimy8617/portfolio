@@ -15,12 +15,8 @@ export const Home = () => {
               <span className="fadeIn">y</span>
             </div>
           </div>
-          <p className="profesion fw-bold">React Developer</p>
-          <a
-            className="btn btn-outline-dark btn-lg getInTouch"
-            type="button"
-            href="/contact"
-          >
+          <p className="profesion">React Developer</p>
+          <a className="btn  btn-lg getInTouch" type="button" href="#contact">
             Get in touch
           </a>
         </div>

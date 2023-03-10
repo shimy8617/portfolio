@@ -14,9 +14,9 @@
 .btn-projects {
     margin: 1rem;
     font-weight: bold;
-    background-color: var(--bs-danger-bg-subtle);
-    color: rgb(120, 120, 120);
-    --bs-btn-border-color: rgb(120, 120, 120);
+    background-color: #efcfc1;
+    color: #5b5b5b;
+    border: none;
     transition: 1s;
 }
 
@@ -24,7 +24,7 @@
     background-color: rgb(82, 82, 82);
     border-color: rgb(82, 82, 82);
     color: #eaeaea;
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 .projectsContainer {

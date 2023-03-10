@@ -1,29 +1,27 @@
 
 .navbar {
-    background-color:#272727;
+    background-color:#efcfc1;
     height: 3.5rem;
 }
-        
+
+.navbar-brand {
+    color: #db6672;
+    font-weight: 600;
+}
+
 .navbar-brand:hover {
-    color: #777777;
+    color: rgb(211, 72, 86);
 }
 
-.nav-item a {
-    color: #6a6a6a;
+.nav-link {
+    color: #383838;
+    font-weight: 600;
 }
 
-.nav-item a:hover {
-    color: rgb(116 116 116 / 75%);
+.nav-link:hover {
+    color: #696969;
 }
 
-.navItems a:hover {
-    color: #777777;
-}
-/* 
-ul {
-    margin-top: 15px;
-}
- */
 @media (min-width: 768px) {
 
     .navbar {
@@ -41,13 +39,7 @@ ul {
 .logo {
     font-size: 1.3rem;
 }
-.nav-item a {
-    color: #dadada;
-}
 
-.nav-item a:hover {
-    color: rgb(116 116 116 / 75%);
-}
 
 a {
     display: flex;

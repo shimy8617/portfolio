@@ -1,6 +1,6 @@
-.containerAboutBox {
+/* .containerAboutBox {
   height: 100vh;
-}
+} */
 
 .containerForm {
 width: 100vw;
@@ -10,7 +10,7 @@ p {
   color: #383838;
   font-size: 18px;
   text-align: justify;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 b {
@@ -23,11 +23,29 @@ b {
   color: var(--bs-body-color);
 }
 
+h3 {
+  color: #f46d7a;
+}
+
+label {
+  color: #383838;
+}
+
 
 
 /*-------------- DESKTOP ----------------*/
 
 @media (min-width: 768px){
+  
+.containerAbout {
+    height: 100vh;
+   display: flex;
+  }
+
+.containerAboutBox {
+  justify-content: center;
+  align-items: center;
+}
 
 p {
   margin: 0 auto 4rem auto;

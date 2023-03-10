@@ -16,7 +16,7 @@ export const Projects = () => {
             {/*   ECOMMERCE WITH WORDPRESS  */}
             <button
               type="button"
-              className="btn btn-projects border border-3"
+              className="btn btn-projects"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
@@ -71,7 +71,7 @@ export const Projects = () => {
             {/*   REACT CALCULATOR PROJECT  */}
             <button
               type="button"
-              className="btn btn-projects border border-3"
+              className="btn btn-projects"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal1"
             >
@@ -125,7 +125,7 @@ export const Projects = () => {
             {/*   FETCH API PROJECT PLAIN HTML  */}
             <button
               type="button"
-              className="btn btn-projects border border-3"
+              className="btn btn-projects"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal2"
             >
