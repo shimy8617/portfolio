@@ -10,7 +10,7 @@
 
   .presentation h1{
     margin: 0 5px 0 0;
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: #f57682;
   }
@@ -73,14 +73,14 @@
     animation-fill-mode: forwards;
     animation-direction: alternate-reverse;
     text-transform: uppercase;
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: #f46d7a;
   } 
   
 .surname {
     text-transform: uppercase;
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     letter-spacing: 0.05rem;
     margin: 0 0 0 5px;
@@ -91,9 +91,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 600;
     text-transform: uppercase;
+
     color: #5b5b5b;
     margin-bottom: 0.7rem;
     animation: fade-in-move-down 2s;
